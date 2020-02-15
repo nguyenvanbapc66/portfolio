@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 40px 40px 0;   
+    width: 100%;
+    position: fixed;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.icons>* {
+    padding: 10px;
+    color: #fff;
+}
+
+.icons {
+    font-size: 25px;
+}
+
+.absolute {
+    position: absolute;
+    color: #fff;
+}
+
+.title {
+    top: 50%;
+    margin-left: 11%;
+    transform: translate(10%, -80%);
+}
+
+.scroll-down {
+    transform: translateX(-340px) rotate(90deg);
+    top: 550px;
+    display: flex;
+    position: fixed;
+}
+
+.scroll-down span {
+    height: 2px;
+    width: 88px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title-text {
+    font-size: 10rem;
+}
+
+.short-way>* {
+    margin-bottom: 1.4rem;
+}
+
+.short-way span {
+    display: block;
+    width: 200px;
+    height: 4px;
+    border-radius: 5px;
+    background: #ff4d5a;
+}
+
+.short-way span:last-child {
+    margin-left: 54px;
+}
+
+.title-lead {
+    font-size: 2.8rem;
+}
+
+.image-about img {
+    max-width: 100%;
+    width: 100%;
+    background: no-repeat center;
+    height: 720px;
+}
+
+.wrapper {
+    margin: 10rem 0 10rem 0;
+}
+
+.heading>* {
+    display: inline-block;
+}
+
+.heading-num {
+    font-family: "Abril Fatface";
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ff4d5a;
+    padding-right: 3.2rem;
+}
+
+.heading-num span {
+    display: inline-block;
+    width: 60px;
+    height: 1.5px;
+    background: #072142;
+    margin: 0 5px 10px 0;
+}
+
+.who-content {
+    display: inline-block;
+}
+
+.heading-text {
+    font-size: 2rem;
+}
+
+.who-wrap {
+    width: 48.333%;
+    float: right;
+    margin-bottom: 6.4rem;
+}
+
+.who-name {
+    color: #072142;
+    margin-bottom: 2.4rem;
+    font-size: 1.5rem;
+}
+
+.who-text {
+    max-width: 48.333%;
+    line-height: 2;
+    margin-bottom: 4rem;
+    color: #bbc1c6;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.who-image img {
+    width: 48.333%;
+}
+
+.current-future-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.current-future-list>* {
+    text-align: center;
+}
+
+.current-future-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-future-image img {
+    width: 42.016%;
+    margin: 8rem auto 2.4rem;
+}
+
+.current-future-title {
+    color: #072142;
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+}
+
+.current-future-text {
+    line-height: 2;
+    word-wrap: break-word;
+    max-width: 300px;
+    color: #bbc1c6;
+    margin: auto;
+}
+
+.skill-content {
+    width: 80%;
+    margin: 8rem auto 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list {
+    list-style: none;
+}
+
+.skill-item>* {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.skill-item {
+    margin-bottom: 3rem;
+}
+
+.skill-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.skill-detail {
+    transform: translate(0, -35px);
+}
+
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-name-detail>* {
+    display: inline-block;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #072142;
+}
+
+.work-time {
+    color: #c0c5ca;
+    margin-left: 0.8rem;
+    letter-spacing: 0.2em;
+}
+
+.skill-percent {
+    color: #072142;
+    font-weight: 700;
+}
+
+.percent {
+    font-weight: 400;
+}
+
+.skill-measure {
+    width: 480px;
+    height: 14px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+    margin-top: 10px;
+}
+
+.skill-measure span.firebase {
+    position: absolute;
+    width: 7.5%;
+    height: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+}
+
+.skill-measure span {
+    position: absolute;
+    width: 17.5%;
+    height: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+}
+
+.footer {
+    width: 100%;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    text-align: center;
+    padding: 10rem 0;
+    color: #fff;
+    font-size: 2rem;
+}
