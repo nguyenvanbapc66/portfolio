@@ -149,6 +149,7 @@ img {
     color: #bbc1c6;
     font-weight: 400;
     word-wrap: break-word;
+    text-align: justify;
 }
 
 .who-image img {
@@ -188,6 +189,12 @@ img {
     max-width: 300px;
     color: #bbc1c6;
     margin: auto;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.skill {
+    margin-top: 5rem;
 }
 
 .skill-content {
