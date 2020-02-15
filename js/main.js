@@ -1,3 +1,9 @@
+window.onload = init
+
+function init(){
+    view.showComponent('portfolio')
+}
+
 $(document).ready(function () {
     var margin = 80;
     $(document).scroll(function () {
