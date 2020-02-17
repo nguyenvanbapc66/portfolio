@@ -34,7 +34,7 @@ component.portfolio = `
                 and going Backpacking.
             </p>
         </div>
-        <div id="thisElement" class="image-about">
+        <div class="image-about">
             <img id="img-page-top" src="./img/photo-1544256718-3bcf237f3974 (1).jpg">
         </div>
     </div>
@@ -57,7 +57,7 @@ component.portfolio = `
                         trường đại học Giao Thông vận tải - ngành CNTT.
                     </p>
                     <div class="who-image">
-                        <img src="./img/IMG_6021.JPG">
+                        <img src="./img/IMG_0441.jpg">
                     </div>
                 </div>
             </div>
