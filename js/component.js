@@ -57,7 +57,7 @@ component.portfolio = `
                         trường đại học Giao Thông vận tải - ngành CNTT.
                     </p>
                     <div class="who-image">
-                        <img src="./img/IMG_0441.jpg">
+                        <img src="./img/IMG_0501-1.jpg">
                     </div>
                 </div>
             </div>
